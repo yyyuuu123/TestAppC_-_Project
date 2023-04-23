@@ -26,6 +26,8 @@ bool getIsRightTrinle = tringle.CheckFigure(x => x.SideA * x.SideA + x.SideB * x
 //Не совсем понял что требуется, но Можно по наименованию другому селектору если такой появится проверять. 
 //Надесь Я правильно понял. А иначе Я не совсем понимаю каким образом в момент компиляции мы можем определить.
 //Буду рад на обратную связь
+
+
 List<Figure> figures = new List<Figure>(2);
 figures.Add(shapeTringle);
 figures.Add(shapeCicrle);
