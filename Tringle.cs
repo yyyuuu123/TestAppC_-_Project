@@ -19,7 +19,7 @@ namespace TestApp
         public Tringle(double a, double b, double c)
         {
             if (a < 0 || b < 0 || c < 0)
-                throw new ArgumentException("Sides must be > 0");
+                throw new ArgumentException("Sides A,B,C must be > 0");
 
             SideA = a; SideB = b; SideC = c;
             _sResult = default(double);
