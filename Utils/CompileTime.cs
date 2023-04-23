@@ -10,7 +10,6 @@ namespace TestApp.Utils
 {
     internal static class CompileTime<TItem>
     {
-        //Не совсем понял что требуется, но Можно по наименованию другому селектору если такой появится проверять. 
         public static double GetInCompleTime(TItem item)
         {
             switch (item)
